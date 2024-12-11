@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body style="margin:7">
+  <form onsubmit="handleFormSubmit(event)">
+    <label for="price">Stock Price:</label>
+    <input type="number" name="price" id="price" />
+    <label for="product">Product Name:</label>
+    <input type="text" name="product" id="product" />
+    <button type="submit">Add Product</button>
+  </form>
+  <ul>
+  </ul>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+<script src="index.js"></script>
+
+</html>
